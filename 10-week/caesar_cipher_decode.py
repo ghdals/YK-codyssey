@@ -94,10 +94,8 @@ else:
             # 선택된 결과 가져오기
             final_password = decoded_results[shift_number]
 
-            # -----------------------------------------
+            
             # result.txt 파일 저장
-            # -----------------------------------------
-            # 저장도 동일하게 "현재 파일 위치 기준"으로 수행
             result_path = os.path.join(base_dir, "result.txt")
 
             try:
