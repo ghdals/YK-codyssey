@@ -8,13 +8,9 @@
 # 4. 올바른 해독 결과의 번호를 입력받는다.
 # 5. 해당 결과를 result.txt 파일로 저장한다.
 
-
-import os  # 파일 경로를 안정적으로 처리하기 위한 기본 라이브러리
-
-
+import os
 
 # 카이사르 암호 해독 함수
-
 def caesar_cipher_decode(target_text):
     """
     target_text: 해독할 문자열
